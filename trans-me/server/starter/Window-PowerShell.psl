@@ -1,0 +1,4 @@
+
+$Env:GOOGLE_APPLICATION_CREDENTIALS="./src/main/java/com/example/restservice/Transcription/credential/application_default_credentials.json"
+echo $Env:GOOGLE_APPLICATION_CREDENTIALS
+./mvnw sprint-boot:run
